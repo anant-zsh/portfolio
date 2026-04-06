@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.scrollbar {
+  scrollbar-width: none;
+}
+
+@theme {
+  --font-main: "main", sans-serif;
+  --font-nav: "nav", sans-serif;
+  --font-body: "body", sans-serif;
+  --font-main-semibold: "main-semibold", sans-serif;
+  --font-body-semibold: "body-semibold", sans-serif;
+  --font-body-bold: "body-bold", sans-serif;
+}
+
+@font-face {
+  font-family: "main";
+  src: url("/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "main-semibold";
+  src: url("/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "nav";
+  src: url("/fonts/Fira_Code/static/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "body";
+  src: url("/fonts/Manrope/static/Manrope-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "body-semibold";
+  src: url("/fonts/Manrope/static/Manrope-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "body-bold";
+  src: url("/fonts/Manrope/static/Manrope-Bold.ttf") format("truetype");
+}
