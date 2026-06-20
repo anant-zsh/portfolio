@@ -8,7 +8,7 @@ const Hero = () => {
         <p>Hey there, this is</p>
       </div>
       <h1 className="text-[50px] tracking-wider sm:text-[58px] md:text-[70px] lg:text-[80px] font-main text-[#ffffff]">
-        Anant Panwar.
+        Anant.
       </h1>
       <div className="leading-tight text-[39px] sm:text-[48px] md:text-[60px] lg:text-[70px] font-main bg-gradient-to-r from-[hsl(0,0%,60%)] to-[hsl(0,0%,90%)] bg-clip-text text-transparent">
         <p>Building scalable web experiences.</p>
